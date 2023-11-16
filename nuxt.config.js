@@ -20,6 +20,7 @@ export default {
 		host: "0.0.0.0",
 	},
 	ssr: true,
+	telemetry: false,
 	target: "static",
 	router: {
 		base: "/family_tree/",

@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "build": "nuxt build --openssl-legacy-provider",
+    "start": "nuxt start --openssl-legacy-provider",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
