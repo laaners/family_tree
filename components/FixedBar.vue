@@ -56,7 +56,7 @@ export default {
 
 	position: fixed; /*STICK TO A POSITION BASED ON ENTIRE HTML, STAY SAME WHEN SCROLL*/
 
-	bottom: 20px;
+	bottom: 40px;
 
 	width: 100%;
 	height: var(--header-padding);
